@@ -1,0 +1,43 @@
+.user{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
+img{
+    width: 450px;
+    height: 96vh;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.comment{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+}
+h3{
+    margin-left: 40%;
+}
+.cmt{
+    margin-left: 20%;
+    background-color: thistle;
+}
+a{
+    position: absolute;
+    display: block;
+    left: 65%;
+    top: 80%;
+    text-decoration: none;
+    width: 200px;
+    height: 20px;
+    background-color: aqua;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+}

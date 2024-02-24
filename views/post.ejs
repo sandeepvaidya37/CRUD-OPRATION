@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= post.username %></title>
+    <link rel="stylesheet" href="/post.css">
+</head>
+<body>
+    <div>
+        <h1 class="user"><%= post.username %></h1>
+        <p class="content"><%= post.content %></p>
+        <img  src="<%= post.image %>" alt="">
+        <div class="comment">
+            <h3>All comments</h3>
+            <hr>
+            <% for( let i = 0; i < num; i++ ) { %>
+                <p class="cmt"><%= post.comments[i] %></p>
+            
+            <% } %>
+        </div>
+
+        <a href="http://localhost:8080/">HomePage</a>
+    </div>
+
+    
+</body>
+</html>

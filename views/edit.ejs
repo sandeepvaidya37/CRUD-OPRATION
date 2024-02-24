@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit post</title>
+</head>
+<body>
+    <h1>Hello <%= post.username %> edit you post here.</h1>
+    <h1>your id is <%= post.id %></h1>
+    <form action="/<%= post.id %>?_method=PATCH" method="post">
+        <input type="text" name="content" placeholder="enter your New text.">
+         <input type="text" name="image" placeholder="enter your new image link here">
+         <button>edit</button>
+    </form>
+    
+    
+</body>
+</html>

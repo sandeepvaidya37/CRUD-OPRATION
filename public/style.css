@@ -1,0 +1,67 @@
+h1{
+    margin-left: 50%;
+}
+img{
+    width: 200px;
+    height: 300px;
+
+}
+.user{
+    margin-left: 30%;
+}
+.content{
+    margin-left: 30%;
+}
+.post{
+    margin-left: 30%;
+}
+.comment{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+}
+.action{
+    display: flex;
+   margin-left: 50%;
+   line-height: 20px;
+   margin-bottom: 10px;
+
+}
+.action a{
+    margin-left: 5px;
+    display: block;
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 30%;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    background-color: black;
+}
+.edit{
+    position: sticky;
+    display: block;
+    bottom: 70%;
+    left: 70%;
+    text-decoration: none;
+    border: 2px solid rgb(217, 203, 196);
+    border-radius: 20px;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.648);
+}
+.delete{
+    margin: 10px;
+    width: 150px;
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    height: 30px;
+    border: 2px solid rgb(206, 188, 188);
+    border-radius: 30%;
+}
